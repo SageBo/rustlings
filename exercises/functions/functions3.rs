@@ -1,10 +1,10 @@
 // functions3.rs
 // Make me compile! Execute `rustlings hint functions3` for hints :)
 
-// I AM NOT DONE
 
 fn main() {
-    call_me();
+    // 函数入参必须不为空
+    call_me(2);
 }
 
 fn call_me(num: u32) {

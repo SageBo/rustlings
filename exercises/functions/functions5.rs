@@ -8,6 +8,8 @@ fn main() {
     println!("The answer is {}", answer);
 }
 
+
 fn square(num: i32) -> i32 {
-    num * num;
+    // return 表达式，没有 ';'
+    num * num
 }
